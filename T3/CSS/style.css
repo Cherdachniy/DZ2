@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.head{
+    background-color: #3b5998;
+    width: 100%;
+    height: 100px;
+}
+
+.logo{
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: 25px;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.signup{
+    display: inline-block;
+}
+
+button{
+    text-align: center;
+    border: 1px solid forestgreen;
+    border-radius: 1px;
+    background: forestgreen;
+    font-size: 16px;
+    margin-left: 5px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+button:hover{
+    opacity: 0.8;
+}
+
+.box{
+    font-size: 12px;
+    margin-top: 15%;
+    margin-left: 25%;
+    border: 1px solid;
+    border-radius: 3px;
+    width: 50%;
+    min-width: auto;
+}
+
+.fclg{
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size: 18px;
+    font-weight: bold;
+}
+hr{
+    margin: 1%;
+}
+
+form{
+    margin: 40px;
+}
+
+form div{
+    margin: 4% 10% 4% 20%;
+}
+
+form label{
+    display:inline-block;
+    width: 30%;
+}
+
+form input{
+    min-width: auto;
+}
+
+form .checkbox{
+    margin-left: 31%;
+    width: 15px;
+}
+
+form button{
+    border: 1px solid #3b5998;
+    border-radius: 3px;
+    background: #3b5998;
+    font-size: 16px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    margin-left: 31%;
+}
+
+.sgnFC{
+    color: #3b5998;
+    maargin-left: 5%;
+}
+
+.fpassword{
+    color: #3b5998;
+    margin-left: 31%;
+}
+.fpassword:hover{
+    opacity: 0.8;
+    color: #3b5998;
+}

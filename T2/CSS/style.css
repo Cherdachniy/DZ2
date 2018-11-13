@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+    position: relative;
+}
+
+.header{
+    height: 15%;
+    background: #696969;
+}
+
+.navigation{
+    height: 5%;
+    background: #C0C0C0;
+}
+
+.maincontent {
+    height: 70%;
+    width: 45%;
+    margin-left: 100px;
+    margin-top: 30px;
+    background: antiquewhite;
+    float: left;
+}
+
+.sidebar {
+    height: 70%;
+    width: 35%;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    background: dimgrey;
+    float: right;
+}
+
+.footer{
+    height: 15%;
+    background: #696969;
+    margin-top: 56%;
+}
